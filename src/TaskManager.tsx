@@ -1,4 +1,4 @@
-import Task from "./Task";
+import TaskContainer from "./TaskContainer";
 import TaskActions from "./TaskActions";
 
 function TaskManager(){
@@ -7,11 +7,10 @@ function TaskManager(){
                 <TaskActions/>
                 <br></br>
                 <hr></hr>
-                <div className="TaskContainer">
-                    <input type="checkbox" className="Checkbox"></input>
-                    <hr></hr>
-                    <Task/>
-                </div>
+                <TaskContainer/>
+                <TaskContainer/>
+                <TaskContainer/>
+                <TaskContainer/>
             </div>);
 }
 

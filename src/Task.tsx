@@ -1,3 +1,4 @@
+import ConfirmDeleteTask from "./ConfirmDeleteTask";
 import TaskContent from "./TaskContent";
 
 function Task(){
@@ -5,6 +6,7 @@ function Task(){
     return( <> 
                 <div className="Task">
                     <h3>Task 1</h3>
+                    <ConfirmDeleteTask/>
                     <TaskContent/>
                 </div>
             </>);

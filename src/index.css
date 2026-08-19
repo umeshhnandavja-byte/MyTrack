@@ -63,6 +63,14 @@ body{
     padding: 1vh;
 }
 
+.ConfirmDelete-btn{
+    float: right;
+    background-color: #F85149;
+    width: 3vh;
+    height: 3vh;
+    /*visibility: ;*/
+}
+
 .Task h3{
     margin: 0;
 }
