@@ -1,5 +1,76 @@
 :root{
+    --text: #E6EDF3;
+    --text-sub: #8B949E;
     --bg: #0d1117;
+    --bg-sub: #161B22;
+    --bg-sub-sub: #21262D;
+    --border: #30363D;
+    --border-sub: #2e3338;
+    --btn-green: #2EA043;
+    --btn-red: #F85149;
 
     background-color: var(--bg);
+    color: var(--text);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.TaskManager{
+    background-color: var(--bg-sub);
+    width: 80vw;
+    height: auto;
+    padding: 2vh;
+    border: 2px solid var(--border);
+    color: var(--text);
+}
+
+.TaskActions{
+    display: inline-flex;
+    width: 100%;
+}
+
+.DeleteTask-btn{
+    width: 5vw;
+    height: 3vh;
+    background-color: var(--btn-red);
+    margin: 1vh;
+}
+
+.AddTask-btn{
+    width: 5vw;
+    height: 3vh;
+    margin: 1vh;
+    margin-left: auto;
+    background-color: var(--btn-green);
+}
+
+.TaskContainer{
+    margin-top: 3vh;
+    display: flex;
+}
+
+.Checkbox{
+    float: left;
+    height: 100%;
+    margin-right: 2vh;
+}
+
+.Task{
+    width: 100%;
+    padding: 1vh;
+}
+
+.Task h3{
+    margin: 0;
+}
+
+.TaskContent{
+    background-color: var(--bg-sub-sub);
+    width: 95%;
+    padding: 1vh;
+    margin-top: 2vh;
+    border: 1px solid var(--border-sub);
 }
