@@ -5,19 +5,21 @@ function GraphMonths(){
     return( <>
              
                 <thead>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
-                    <Month/>
+                    <tr>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                        <Month/>
+                    </tr>
                 </thead>
             </>);
 }

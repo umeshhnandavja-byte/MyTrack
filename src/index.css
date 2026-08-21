@@ -18,6 +18,15 @@ body{
     justify-content: center;
 }
 
+.Header{
+    background-color: var(--bg-sub);
+    width: 90vw;
+    height: auto;
+    padding: 2vh;
+    border: 2px solid var(--border);
+    color: var(--text);
+}
+
 .TaskManager{
     background-color: var(--bg-sub);
     width: 80vw;
@@ -25,6 +34,7 @@ body{
     padding: 2vh;
     border: 2px solid var(--border);
     color: var(--text);
+    margin: 5vh;
 }
 
 .TaskActions{
@@ -81,4 +91,15 @@ body{
     padding: 1vh;
     margin-top: 2vh;
     border: 1px solid var(--border-sub);
+}
+
+table{
+    border: 1px solid white;
+    width: 100%;
+}
+
+td{
+    background-color: var(--border-sub);
+    height: 2px;
+    width: 2px;
 }

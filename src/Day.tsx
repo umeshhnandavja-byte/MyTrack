@@ -1,7 +1,10 @@
+import DateData from "./DateData";
 function Day(){
 
     return( <>
-                <tr></tr>
+                <tr>
+                    <DateData/>
+                </tr>
             </>);
 }
 

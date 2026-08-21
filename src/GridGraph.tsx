@@ -6,8 +6,8 @@ function GridGraph(){
     return( <>
                 <table>
                     <caption>Streak</caption>
-                    <GraphDays/>
                     <GraphMonths/>
+                    <GraphDays/>
                 </table>
             </>);
 }
