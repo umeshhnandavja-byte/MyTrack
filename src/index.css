@@ -4,6 +4,7 @@
     --bg: #0d1117;
     --bg-sub: #161B22;
     --bg-sub-sub: #21262D;
+    --bg-popup: hsla(0, 0%, 6%, 0.4);
     --border: #30363D;
     --border-sub: #2e3338;
     --btn-green: #2EA043;
@@ -55,6 +56,39 @@ body{
     margin: 1vh;
     margin-left: auto;
     background-color: var(--btn-green);
+}
+
+body.active-modal{
+    overflow-y: hidden;
+}
+
+.add-task{
+    background-color: var(--bg-popup);
+    display: flex;
+    background-color: var();
+    width: 100vw;
+    height: 100vh;
+}
+
+.add-task, .overlay{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: var(--bg-sub);
+    border: 2px solid var(--border);
+    box-shadow: #0d1117;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .TaskContainer{
