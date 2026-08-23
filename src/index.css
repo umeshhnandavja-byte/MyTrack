@@ -137,3 +137,13 @@ td{
     height: 2px;
     width: 2px;
 }
+
+.Footer{
+    background-color: var(--bg-sub);
+    width: 90vw;
+    height: auto;
+    padding: 2vh;
+    border: 2px solid var(--border);
+    color: var(--text);
+    text-align: center;
+}
