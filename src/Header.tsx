@@ -2,7 +2,7 @@ function Header(){
 
     return( <>
                 <div className="Header">
-                    
+                    <h2>MyTrack</h2>
                 </div>
             </>);
 }
