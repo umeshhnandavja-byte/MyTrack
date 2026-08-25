@@ -6,7 +6,7 @@ function Task(){
     return( <> 
                 <div className="Task">
                     <h3>Task 1</h3>
-                    {deleteTask && (<ConfirmDeleteTask/>)}
+                     && (<ConfirmDeleteTask/>)
                     <TaskContent/>
                 </div>
             </>);
